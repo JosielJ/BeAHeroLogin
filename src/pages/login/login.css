@@ -1,0 +1,194 @@
+* {
+margin: 0;
+}
+
+.login {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+width: 100%;
+color: #121214;
+background-color: #f5f5f5;
+background: linear-gradient(25deg, #f93801, #f9ca22);
+background-size: 400% 400%;
+
+-webkit-animation: login 31s ease infinite;
+-moz-animation: login 31s ease infinite;
+animation: login 31s ease infinite;
+}
+
+@-webkit-keyframes login {
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}
+@-moz-keyframes login {
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}
+@keyframes login {
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}
+
+.login-container {
+height: 400px;
+width: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: white;
+border-radius: 10px;
+padding: 15px;
+}
+
+
+.login-container img {
+width: 100px;
+}
+
+.login-container h1 {
+font-size: 40px;
+margin: 10px;
+}
+
+.login-input-name {
+display: flex;
+align-items: center;
+border-radius: 5px;
+padding: 3px;
+margin-bottom: 10px;
+width: 98%;
+height: 50px;
+color: #121214;
+background-color: #f5f5f5;
+}
+
+.login-input-name svg {
+margin-left: 10px;
+color: #121214;
+font-size: 22px;
+}
+
+.login-input-name input {
+width: 100%;
+outline-width: 0;
+margin-left: 10px;
+margin-right: 10px;
+font-size: 17px;
+font-weight: bold;
+border: none;
+background: transparent;
+color: #121214;
+}
+
+.login-input-password {
+display: flex;
+align-items: center;
+border-radius: 5px;
+padding: 3px;
+margin-bottom: 10px;
+width: 98%;
+height: 50px;
+color: #121214;
+background-color: #f5f5f5;
+}
+
+.login-input-password svg {
+margin-left: 10px;
+color: #121214;
+font-size: 25px;
+}
+
+.login-input-password input {
+width: 100%;
+outline-width: 0;
+margin-left: 10px;
+margin-right: 10px;
+font-size: 17px;
+font-weight: bold;
+border: none;
+background: transparent;
+color: #121214;
+}
+
+.login-eye {
+align-items: center;
+justify-content: center;
+cursor: pointer;
+margin-right: 10px;
+}
+
+.login-eye svg {
+padding-top: 5px;
+font-size: 20px;
+}
+
+.login-button {
+box-shadow: 0px 10px 14px -7px #00000010;
+background-color: transparent;
+border-radius: 8px;
+display: inline-block;
+cursor: pointer;
+color: #f5f5f5;
+font-family:Arial;
+font-size: 15px;
+font-weight: bold;
+padding: 7px 28px;
+margin-top: 5px;
+text-decoration: none;
+text-shadow: 0px 1px 0px #3d758a3b;
+background: linear-gradient(180deg, #f93801 0%, #f9ca22 200%);
+background-size: 100% 100%;
+
+-webkit-animation: button 31s ease infinite;
+-moz-animation: button 31s ease infinite;
+animation: button 31s ease infinite;
+
+transition: 0.3s;
+}
+.login-button:hover {
+background-image: linear-gradient(to top, #f9ca22 0%, #f93801 100%);
+background-color:transparent
+}
+.login-button:active {
+position:relative;
+top:1px;
+}
+
+@-webkit-keyframes button {
+0%{background-position:50% 0%}
+50%{background-position:50% 100%}
+100%{background-position:50% 0%}
+}
+@-moz-keyframes button {
+0%{background-position:50% 0%}
+50%{background-position:50% 100%}
+100%{background-position:50% 0%}
+}
+@keyframes button {
+0%{background-position:50% 0%}
+50%{background-position:50% 100%}
+100%{background-position:50% 0%}
+}
+
+h4 {
+margin-top: 5px;
+}
+
+.login-singup:link, .login-singup:visited, .login-singup:hover, .login-singup:active {
+text-decoration: none;
+font-weight: bold;
+}
+
+.login-singup:link,  .login-singup:visited {
+color: #f93801;
+}
+
+.login-singup:hover, .login-singup:active {
+color: #f9ca22;
+}
