@@ -21,7 +21,7 @@ O projeto conta com uma tela de login simples, apenas para treino visual.
 </p>
 
 <div aling="center">
-  <img width="150px" src="https://media.discordapp.net/attachments/844323169900167218/997597468512497695/Screenshot_712.png?width=526&height=669"/>
+  <img width="300px" src="https://media.discordapp.net/attachments/844323169900167218/997597468512497695/Screenshot_712.png?width=526&height=669"/>
 <div/>
 
 ## Funcionalidades
