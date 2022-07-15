@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20FINALIZADO&color=RED&style=for-the-badge"/>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=BLUE&style=for-the-badge"/>
 </p>
 
 ### Um site feito para treinar CSS.
@@ -20,7 +20,7 @@ Projeto em desenvolvido para treinar CSS.
 O projeto conta com uma tela de login simples, apenas para treino visual.
 </p>
 
-<div>
+<div aling="center">
   <img width="150px" src="https://media.discordapp.net/attachments/844323169900167218/997597468512497695/Screenshot_712.png?width=526&height=669"/>
 <div/>
 
